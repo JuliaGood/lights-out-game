@@ -1,4 +1,4 @@
-.Cell {
+.cell {
   height: 100px;
   width: 100px;
   background-color: #263238;
@@ -6,6 +6,6 @@
   border-radius: 4px;
 }
 
-.Cell-lit {
+.cell-lit {
   background-color: #00bcd4;
 }
