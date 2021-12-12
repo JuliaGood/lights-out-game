@@ -1,4 +1,4 @@
-.Board {
+.board {
   margin: 0 auto;
   box-shadow: 0 0 5px #fff, -5px 0 20px #f0f, 10px 0 20px #0ff;
   border-radius: 3px;
@@ -10,7 +10,7 @@
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
 
-.Board-title {
+.board-title {
   display: flex;
   align-items: center;
   justify-content: center;

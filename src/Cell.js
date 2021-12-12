@@ -1,19 +1,15 @@
-import React, {Component} from 'react'
-import "./Cell.css"
+import React, {Component} from 'react';
+import "./cell.css";
 
+/* a single cell on the board.
 
-/** A single cell on the board.
- *
- * This has no state --- just two props:
- *
- * - flipCellsAroundMe: a function rec'd from the board which flips this
- *      cell and the cells around of it
- *
- * - isLit: boolean, is this cell lit?
- *
- * This handles clicks --- by calling flipCellsAroundMe
- *
- **/
+This has no state --- just two props:
+  - flipCellsAroundMe: a function rec'd from the board which 
+    flips this cell and the cells around of it
+  - isLit: boolean, is this cell lit?
+
+This handles clicks --- by calling flipCellsAroundMe
+*/
 
 class Cell extends Component {
   constructor(props) {
@@ -27,7 +23,7 @@ class Cell extends Component {
   }
 
   render() {
-    let classes = "Cell" + (this.props.isLit ? " Cell-lit" : "");
+    let classes = "cell" + (this.props.isLit ? " cell-lit" : "");
 
     return (
         <td className={classes} onClick={this.handleClick} />
@@ -35,5 +31,4 @@ class Cell extends Component {
   }
 }
 
-
-export default Cell
+export default Cell;
