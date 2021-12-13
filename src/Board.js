@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Cell from "./Cell";
+import React, { Component } from 'react';
+import Cell from './Cell';
 import './board.css';
 
 /* board of Lights Out game.

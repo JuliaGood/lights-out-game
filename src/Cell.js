@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import "./cell.css";
+import './cell.css';
 
 /* a single cell on the board.
 
