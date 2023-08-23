@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lights-out-game/static/css/main.8cc6371c.chunk.css",
+    "main.js": "/lights-out-game/static/js/main.f488d2ea.chunk.js",
+    "main.js.map": "/lights-out-game/static/js/main.f488d2ea.chunk.js.map",
+    "runtime-main.js": "/lights-out-game/static/js/runtime-main.7457fc67.js",
+    "runtime-main.js.map": "/lights-out-game/static/js/runtime-main.7457fc67.js.map",
+    "static/js/2.5fcf4a1c.chunk.js": "/lights-out-game/static/js/2.5fcf4a1c.chunk.js",
+    "static/js/2.5fcf4a1c.chunk.js.map": "/lights-out-game/static/js/2.5fcf4a1c.chunk.js.map",
+    "index.html": "/lights-out-game/index.html",
+    "static/css/main.8cc6371c.chunk.css.map": "/lights-out-game/static/css/main.8cc6371c.chunk.css.map",
+    "static/js/2.5fcf4a1c.chunk.js.LICENSE.txt": "/lights-out-game/static/js/2.5fcf4a1c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7457fc67.js",
+    "static/js/2.5fcf4a1c.chunk.js",
+    "static/css/main.8cc6371c.chunk.css",
+    "static/js/main.f488d2ea.chunk.js"
+  ]
+}
