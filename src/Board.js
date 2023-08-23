@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Cell from './Cell';
-import './board.css';
+import './Board.css';
 
 /* board of Lights Out game.
 
@@ -127,7 +127,7 @@ class Board extends Component {
       // because each row must to be inside of <tr> tag
     }
     return(
-      <div>
+      <div className='board-box'>
         <div className='board-title'>
           <div className="neon-orange">Lights</div>
           <div className="neon-blue">Out</div>

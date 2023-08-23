@@ -1,6 +1,6 @@
 .cell {
-  height: 100px;
-  width: 100px;
+  height: 90px;
+  width: 90px;
   background-color: #263238;
   transition: background-color 0.7s ease;
   border-radius: 4px;
@@ -8,4 +8,35 @@
 
 .cell-lit {
   background-color: #00bcd4;
+}
+
+@media screen and (max-width: 1200px) {
+  .cell {
+    height: 85px;
+    width: 85px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cell {
+    height: 80px;
+    width: 80px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .cell {
+    height: 70px;
+    width: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cell {
+    height: 60px;
+    width: 60px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cell {
+    height: 50px;
+    width: 50px;
+  }
 }

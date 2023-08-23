@@ -10,21 +10,20 @@
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
 
+.board-box {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
 .board-title {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.winner .neon-blue,
-.winner .neon-orange {
-  font-size: 150px;
-}
-
 .neon-orange {
-  font-family: neon;
   color: #FB4264;
-  font-size: 80px;
   text-shadow: 0 0 3vw #F40A35;
   animation: neon-orange 1s ease infinite;
   -moz-animation: neon-orange 1s ease infinite;
@@ -32,14 +31,19 @@
 }
 
 .neon-blue {
-  font-family: neon;
   color: #426DFB;
-  font-size: 80px;
   text-shadow: 0 0 3vw #2356FF;
   animation: neon-blue 2s linear infinite;
   -moz-animation: neon-blue 2s linear infinite;
   -webkit-animation: neon-blue 2s linear infinite;
   -o-animation: neon-blue 2s linear infinite;
+}
+.neon-orange, 
+.neon-blue,
+.winner .neon-blue,
+.winner .neon-orange {
+  font-size: 80px;
+  font-family: neon;
 }
 
 @keyframes neon-orange {
@@ -63,5 +67,46 @@
   50% {
     text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
     color: #146C80;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .neon-orange, 
+.neon-blue,
+.winner .neon-blue,
+.winner .neon-orange {
+    font-size: 75px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .neon-orange, 
+.neon-blue,
+.winner .neon-blue,
+.winner .neon-orange {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .neon-orange, 
+.neon-blue,
+.winner .neon-blue,
+.winner .neon-orange {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .neon-orange, 
+.neon-blue,
+.winner .neon-blue,
+.winner .neon-orange {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .neon-orange, 
+.neon-blue,
+.winner .neon-blue,
+.winner .neon-orange {
+    font-size: 45px;
   }
 }
